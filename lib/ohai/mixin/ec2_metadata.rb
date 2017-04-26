@@ -44,7 +44,7 @@ module Ohai
                                    2008-02-01 2008-09-01 2009-04-04 2011-01-01 2011-05-01 2012-01-12
                                    2014-11-05 2014-02-25 }
 
-      EC2_ARRAY_VALUES = %w{security-groups}
+      EC2_ARRAY_VALUES = %w{security-groups local_ipv4s}
       EC2_ARRAY_DIR    = %w{network/interfaces/macs}
       EC2_JSON_DIR     = %w{iam}
 
